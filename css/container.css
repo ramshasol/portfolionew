@@ -1,0 +1,74 @@
+.container-flex{
+display:flex;
+justify-content:start;
+text-align:center;
+flex-wrap:nowrap;
+}
+
+.item{
+    color: blue;
+    width: 200px;
+    border: 2px;
+    margin: 10px;
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+
+
+.liststyle{
+    list-style-type: style type image;;
+}
+.alpha.beta{
+    color: green;
+    background-color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title {
+    color: blue;
+    font-size: 32px;
+    width: 500px;
+    border: 2px solid grey;
+}
+
+
+@media (max-width:600px){
+    /* rules for mobile */
+.title{
+    font-size: 20px;
+    color: red;
+}
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+    /* rules for mobile */
+.title{
+    font-size: 20px;
+    color:aqua;
+}
+}
+
+@media (min-width: 992px){
+    /* rules for mobile */
+.title{
+    font-size: 20px;
+    color:blue;
+}
+}
